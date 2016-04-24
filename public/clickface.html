@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="clickgame.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>"Comedian Clicks"</title>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h2>
+      Push the button to start.
+    </h2>
+    <!-- <button class="btn btn-info" type="submit"><a href="game">Return to Game Page</a></button>
+    <br /> -->
+    <div class="col-xs-12 col-sm-2">
+      <table class="table timer">
+        <tr>
+          <td>
+            <h4>Time</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2 id="runningTime">20</h2>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-xs-12 col-sm-8">
+      <h5>
+        Click as many comedians as possible in 20 seconds:
+      </h5>
+
+      <button class="btn btn-success active" id="start" onclick="timecount()">Push to start</button>
+      <button class="btn btn-danger active" id="stop" onclick="stopgame()">Push to reset</button>
+    </div>
+  </div>
+
+  <!-- choosing all square images definitely comes in handy for formatting at once! -->
+  <div class="col-xs-12 col sm-10">
+    <div class="row">
+      <button class="btn btn-default comedians">
+        <img src="images/Ball.jpg" alt="Lucille Ball" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/leslie-jones.jpg" alt="Leslie Jones" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Kristen-Schaal.jpg" alt="Kristen Schaal" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/micucci.jpg" alt="Kate Micucci" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Schumer.jpg" alt="Amy Schumer" class="img-responsive"></button>
+    </div>
+    <br />
+    <div class="row">
+      <button class="btn btn-default comedians">
+        <img src="images/Julia-Louis-Dreyfus.jpg" alt="Louis Dreyfus" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/kathy-griffin.jpg" alt="Kathy Griffin" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/mindy-kaling.jpg" alt="Mindy Kaling" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Tina-Fey.jpg" alt="Tina Fey" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/mayarudolph.jpg" alt="Maya Rudolph" class="img-responsive"></button>
+    </div>
+    <br />
+    <div class="row">
+      <button class="btn btn-default comedians">
+        <img src="images/Wiig.jpg" alt="Kristen Wiig" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/melissa-mccarthy.jpg" alt="Melissa McCarthy" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Slate.jpg" alt="Jenny Slate" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Sarah-Silverman.jpg" alt="Sarah Silverman" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/ellendegeneres.jpg" alt="Ellen DeGeneres" class="img-responsive"></button>
+    </div>
+    <br />
+    <div class="row">
+      <button class="btn btn-default comedians">
+        <img src="images/Rivers.jpg" alt="Joan Rivers" class="img-responsive"></button>
+      <button class="btn btn-default comedians" id="face">
+        <img src="images/Poehler.jpg" alt="Amy Poehler" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/JaneaneGarofalo.jpg" alt="Janeane Garofalo" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/cecily-strong.jpg" alt="Celia Strong" class="img-responsive"></button>
+      <button class="btn btn-default comedians">
+        <img src="images/Riki_Lindhome.jpg" alt="Rikki Lindhome" class="img-responsive"></button>
+    </div>
+    
+
+
+  <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="clickgame.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
